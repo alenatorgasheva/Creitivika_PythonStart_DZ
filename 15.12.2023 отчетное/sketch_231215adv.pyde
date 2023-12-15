@@ -1,0 +1,21 @@
+def setup():
+    rectMode(CENTER)
+    size(600,600)
+def draw():
+    strokeWeight(1)
+    fill(255,243,10)
+    triangle(300,100,100,500,500,500)
+    fill(255,255,255)
+    ellipse(300,250,100,100)
+    fill(0)
+    triangle(250,350,250,400,300,375)
+    triangle(350,350,350,400,300,375)
+    ellipse(300,250,30,30)
+    strokeWeight(20)
+    line(200,500,150,550)
+    line(400,500,450,550)
+    line(200,300,150,250)
+    line(400,300,450,250)
+    line(320,75,280,75)
+    rect(300,50,20,50)
+    
